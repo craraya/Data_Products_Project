@@ -1,0 +1,28 @@
+
+Course Project: Shiny Application and Reproducible Pitch
+========================================================
+author: Carlos Araya
+date: 27 March 2017
+autosize: true
+transition: rotate
+
+Mapp Application with Leaflet and Google Maps Distance Matrix
+========================================================
+
+For this Application we used Leaflet maps combined with package ggmap, which uses google Maps Distance Matrix to calculate distances between two points on the map.(<https://developers.google.com/maps/documentation/distance-matrix/intro?hl=en-419>).
+
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
