@@ -9,11 +9,14 @@ transition: rotate
 Mapp Application with Leaflet and Google Maps Distance Matrix
 ========================================================
 
-For this Application we used Leaflet maps combined with package ggmap, which uses google Maps Distance Matrix to calculate distances between two points on the map.(<https://developers.google.com/maps/documentation/distance-matrix/intro?hl=en-419>).
+For this Application we used Leaflet maps combined with package ggmap, which uses Google Maps Distance Matrix to calculate distances between two points on the map. 
+The Google Maps Distance Matrix documentation es in:
+<https://developers.google.com/maps/documentation/distance-matrix/intro?hl=en-419>
 
+The project documentation is in: 
+<https://github.com/craraya/Data_Products_Project>.
 
-
-Slide With Code
+First view:
 ========================================================
 
 
@@ -31,7 +34,7 @@ summary(cars)
  Max.   :25.0   Max.   :120.00  
 ```
 
-Slide With Plot
+How it works?
 ========================================================
 
 ![plot of chunk unnamed-chunk-2](DP_Proyects_Presentation-figure/unnamed-chunk-2-1.png)
