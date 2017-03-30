@@ -4,7 +4,7 @@ library(leaflet)
 library(ggmap)
 
 
-# shinyServer
+# shinyServer 
 shinyServer(function(input, output, session) {
   
   pointFrom <- eventReactive(input$recalc, {
