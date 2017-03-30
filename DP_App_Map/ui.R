@@ -2,7 +2,7 @@
 library(shiny)
 library(leaflet)
 
-# shinyUI 
+# shinyUI with pageWithSidebar
 shinyUI(pageWithSidebar(
   headerPanel('Map'),
   
