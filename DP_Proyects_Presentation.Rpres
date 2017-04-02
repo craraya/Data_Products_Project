@@ -19,13 +19,4 @@ The project documentation is in:
 First view:
 ========================================================
 
-```{r}
-summary(cars)
-```
-
-How it works?
-========================================================
-
-```{r, echo=FALSE}
-plot(cars)
-```
+![GitHub Logo](DP_Proyects_Presentation-figure/print_1.png)
