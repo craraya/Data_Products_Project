@@ -7,25 +7,22 @@ shinyUI(pageWithSidebar(
   headerPanel('Map'),
   
   sidebarPanel(
-    p('Ingrese las direcciones de Inicio y Fin'),
-    #textInput('dirTxtFrom','From','san vicente de paul 4428, macul, santiago, chile'),
-    #textInput('dirTxtTo','To','san nicolas 1020, san miguel, santiago, chile'),
+    h3('Enter FROM and TO addresses without accents'),
+    textInput('dirTxtFrom','From','Plaza de Armas, Santiago, Chile'),
+    textInput('dirTxtTo','To','Parque Almagro, Santiago, Chile'),
     
-    textInput('dirTxtFrom','From','From ...'),
-    textInput('dirTxtTo','To','To ...'),
+    h5('Direction Status: '),
+    textOutput('dirStat'),
     actionButton("recalc", "Calcular")
   ),
   
   mainPanel(
     leafletOutput('mymap'),
-    p('La distancia entre los dos puntos es:'),
-    textOutput('distM'),
-    textOutput('distK'),
-    textOutput('distMl'),
-    p('El tiempo entre los dos puntos es:'),
-    textOutput('timeS'),
-    textOutput('timeM'),
-    textOutput('timeH')
-    
+    h5('Total Distance: '),
+    textOutput('totalDist'),
+    h5('Total Time: '),
+    textOutput('totalTime'),
+    h5('Table with directions'),
+    tableOutput('tab')
   )
 ))
