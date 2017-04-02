@@ -16,6 +16,9 @@ The Google Maps Distance Matrix documentation es in:
 The project documentation is in: 
 <https://github.com/craraya/Data_Products_Project>.
 
+The Shiny Application is in:
+<https://craraya.shinyapps.io/dp_app_map/>.
+
 First view:
 ========================================================
 
